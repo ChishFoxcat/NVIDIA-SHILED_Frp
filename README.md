@@ -7,12 +7,14 @@
  - 仅用于个人学习，禁止进行获利、筹钱等非法活动
  - 仅适应大带宽的服务器，以及大宽带的家庭网络
  - 会消耗大量的，无法预知的流量，请谨慎使用
-<br />
+
+---
 
 ## 🔗 项目引用
 [![](./img/Moonlight.png)](https://github.com/moonlight-stream) [![](./img/FRP.png)](https://github.com/fatedier/frp)
 ##### * `Moonlight` 仅连接端（NVIDIA SHILED）
-<br />
+
+---
 
 ## 🔧 配置Frp相关
 ###  一、服务端（Frps）
@@ -84,12 +86,9 @@ screen -S frps
 
 5. 至此，服务端已配置完成。
 
----
-
 ### 二、客户端（Frpc）
 1. 配置Frp客户端前，去Frp仓库下载对应你服务器系统或架构的包
-> 因为远程被控制端只有 `Windows` 才有支持 **`NVIDIA SHILED`**，所以只需要下在Windows端（以下示例环境 `Windows X86_64`）
-<br /> 
+> 因为远程被控制端只有 `Windows` 才有支持 **`NVIDIA SHILED`**，所以只需要下在Windows端（以下示例环境 `Windows X86_64`）<br /> 
 客户端 -> [frp_0.38.0_windows_amd64.zip](https://github.com/fatedier/frp/releases/download/v0.38.0/frp_0.38.0_windows_amd64.zip)
 
 ##### * 注： 父级目录建议重命名为好记的名称
@@ -111,7 +110,6 @@ frp_0.38.0_windows_amd64
 ```
 
 2. 运行前请添加Windows Defender的文件夹排除名单
-<br />
 
 #### **`病毒和威胁防护` > `病毒和威胁防护设置[管理设置]` > `排除项[添加或删除排除项]` > `添加排除项`**  
 
@@ -137,10 +135,6 @@ type = tcp
 local_ip = 0.0.0.0
 local_port = 12345
 remote_port = 12345
-
-.
-.
-.
 ```
 
 4. **`NVIDIA SHILED`** 客户端配置如下：
@@ -215,17 +209,21 @@ remote_port = 48010
 
 6. 至此，客户端已配置完成。
 
+---
+
 ## ⚙️ **NVIDIA GeForce Experience** 配置
 - 检查是否是 `Game Ready` 驱动程序，不是请切换至此驱动
 - 依次点击设置 > SHILED ，打开 `GAMESTREAM` 开关（如果没有请不要继续）
 - 建议创建一个单向软件，以防 `moonlight` 检查不到你要打开的软件会自动关闭，比如 *explorer* .
 
-## 🕹️ `Moonlight` 连接
+---
+
+## 🕹️ **Moonlight** 连接
  - 安卓端/PC端/Mac端（Intel / M1）
    - 支持外网ip或域名
    - 带宽不建议高于家庭上行速率，40 Mbps 即可
  - iOS端/iPadOS端
-   - 很遗憾，Apple官方不允许moonlight添加外网设备
+   - 很遗憾，Apple官方不允许moonlight添加外网设备<br />
    > [**Moonlight issues #417** @690064177](https://github.com/moonlight-stream/moonlight-ios/issues/417#issuecomment-690064177)
 
    [cgutman](https://github.com/cgutman) :<br />
@@ -233,7 +231,7 @@ remote_port = 48010
    > The app must only connect to a user-owned host device that is a personal computer or dedicated game console owned by the user, and both the host device and client must be connected on a local and LAN-based network.
 
    Therefore, Moonlight does not allow you to add PCs that aren't on your local network anymore. This was a hard requirement by Apple's App Store Review team.
-   - 但是有iPv4映射成iPv6的方法
+   - 但是issues有提示iPv4映射成iPv6的方法<br />
    > [**Moonlight issues #417** @1001257949](https://github.com/moonlight-stream/moonlight-ios/issues/417#issuecomment-1001257949)
 
    [U-siro](https://github.com/U-siro) :<br />
@@ -243,9 +241,13 @@ remote_port = 48010
 
    https://www.ibm.com/docs/en/zos/2.4.0?topic=addresses-ipv4-mapped-ipv6
 
+---
+
 ## 🛠️ 更新日志
  - 2022/1/22
     - 1.更新md文档
+
+---
 
 ## 🌎 MIT LICENSE
 ```
