@@ -217,7 +217,8 @@ remote_port = 48010
    - 支持外网ip或域名
    - 带宽不建议高于家庭上行速率，40 Mbps 即可
  - iOS端/iPadOS端
-   - 很遗憾，Apple官方不允许moonlight添加外网设备<br />
+   - 很遗憾，Apple官方不允许moonlight添加外网设备
+   
    > [**Moonlight issues #417** @690064177](https://github.com/moonlight-stream/moonlight-ios/issues/417#issuecomment-690064177)
 
    [cgutman](https://github.com/cgutman) :<br />
@@ -225,7 +226,8 @@ remote_port = 48010
    > The app must only connect to a user-owned host device that is a personal computer or dedicated game console owned by the user, and both the host device and client must be connected on a local and LAN-based network.
 
    Therefore, Moonlight does not allow you to add PCs that aren't on your local network anymore. This was a hard requirement by Apple's App Store Review team.
-   - 但是issues有提示iPv4映射成iPv6的方法<br />
+   - 但是issues有提示iPv4映射成iPv6的方法
+   
    > [**Moonlight issues #417** @1001257949](https://github.com/moonlight-stream/moonlight-ios/issues/417#issuecomment-1001257949)
 
    [U-siro](https://github.com/U-siro) :<br />
