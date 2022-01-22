@@ -8,13 +8,9 @@
  - 仅适应大带宽的服务器，以及大宽带的家庭网络
  - 会消耗大量的，无法预知的流量，请谨慎使用
 
----
-
 ## 🔗 项目引用
 [![](./img/Moonlight.png)](https://github.com/moonlight-stream) [![](./img/FRP.png)](https://github.com/fatedier/frp)
 ##### * `Moonlight` 仅连接端（NVIDIA SHILED）
-
----
 
 ## 🔧 配置Frp相关
 ###  一、服务端（Frps）
@@ -216,8 +212,6 @@ remote_port = 48010
 - 依次点击设置 > SHILED ，打开 `GAMESTREAM` 开关（如果没有请不要继续）
 - 建议创建一个单向软件，以防 `moonlight` 检查不到你要打开的软件会自动关闭，比如 *explorer* .
 
----
-
 ## 🕹️ **Moonlight** 连接
  - 安卓端/PC端/Mac端（Intel / M1）
    - 支持外网ip或域名
@@ -241,13 +235,9 @@ remote_port = 48010
 
    https://www.ibm.com/docs/en/zos/2.4.0?topic=addresses-ipv4-mapped-ipv6
 
----
-
 ## 🛠️ 更新日志
  - 2022/1/22
     - 1.更新md文档
-
----
 
 ## 🌎 MIT LICENSE
 ```
